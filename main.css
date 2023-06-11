@@ -28,16 +28,33 @@ html {
   margin: 5px  auto;
   display: inline-block;
 
+
 }
+.transform-demo > div {
+  height: 40px;
+  background: salmon;
+  width: 20%;
+  margin: auto;
+  display: inline-block;
+  transform: translate(150px);
+  opacity: 0.5;
+}
+
 /****************************************
 * Transition
 ****************************************/
 
 .transition-demo img {
+  margin-bottom: .5em;
   width: 200px;
   height: 200px;
+  filter: grayscale(100%);
+  transition: 2s;
 }
 
+.transition-demo img:hover {
+  filter: none;
+}
 .cards {
   display: flex;
   justify-content: space-around;
