@@ -54,7 +54,9 @@ html {
 
 .transition-demo img:hover {
   filter: none;
+  transform: scale(1.25) rotate(360deg);
 }
+
 .cards {
   display: flex;
   justify-content: space-around;
